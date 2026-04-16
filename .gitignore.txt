@@ -1,0 +1,77 @@
+# ============================================================
+# Hayya Morocco — Global Tourism Analytics
+# .gitignore
+# ============================================================
+
+# ── Jupyter Notebook ─────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# ── Anaconda / Conda ─────────────────────────────────────────
+# (project runs on Anaconda — seen in screenshots)
+.conda/
+conda-meta/
+*.conda
+
+# ── Data Files (sensitive / large) ───────────────────────────
+# Uncomment if you don't want to push raw data to GitHub
+# data/*.csv
+# data/*.xlsx
+# data/*.json
+
+# ── OS Files ─────────────────────────────────────────────────
+# Windows (seen in screenshots — Windows 11)
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDE / Editors ─────────────────────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# JupyterLab settings (local only)
+.jupyter/
+
+# ── Build & Distribution ─────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# ── Logs & Temp ──────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ── Secrets & Credentials ────────────────────────────────────
+.env
+.env.*
+secrets.py
+config_local.py
+
+# ============================================================
